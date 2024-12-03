@@ -1,0 +1,2 @@
+models/depth_anything_v2_vits.pth filter=lfs diff=lfs merge=lfs -text
+models/LogoRedmondV2-Logo-LogoRedmAF.safetensors filter=lfs diff=lfs merge=lfs -text

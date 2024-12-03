@@ -1,0 +1,21 @@
+{
+    "pretrained_model_name_or_path" : "stabilityai/stable-diffusion-xl-base-1.0",
+    "controlnet_depth_model_path" : "diffusers/controlnet-depth-sdxl-1.0",
+    "logo_lora_name_or_path" : "models/LogoRedmondV2-Logo-LogoRedmAF.safetensors",
+    "depth_estimator_name_or_path" : "models/depth_anything_v2_vits.pth",
+    "depth_estimator_encoder" : "vits",
+
+    "logo_lora_clip_weight" : 1.0,
+    "logo_lora_unet_weight" : 1.0,
+    "sampler_scheduler" : "euler a",
+
+    "negative_prompt" : "ugly, deformed, abnormalities, low quality, bad qualty",
+    "img_height" : 1024,
+    "img_width" : 1024,
+    "cfg" : 5.0,
+    "num_inference_steps" : 25,
+
+    "controlnet_conditioning_scale" : 1.0,
+    "control_guidance_start" : 0.0,
+    "control_guidance_end" : 1.0
+}
