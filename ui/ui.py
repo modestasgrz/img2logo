@@ -26,4 +26,4 @@ def launch_interface(
         ]
     )
 
-    interface.launch(share=True)
+    interface.launch(share=True, server_name="0.0.0.0", server_port=3000)
